@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color:#000000;
+    padding: 40px 0;
+    padding: 0 2%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.logo-1 img {
+    float: left;
+    width: 100px;
+    height: 70px;
+   
+   
+  
+    
+}
+
+
+
+.logo-2 h2 {
+    float: right;
+    color: #fafafafa;
+    margin: 14px 0;
+    font-size: 23px;
+    font-weight: normal;
+    
+   
+    
+}
+
+
+section.cover-form {
+    width: 100%;
+    padding:0 2%;
+    
+}
+
+.banner  {
+    height: 500px;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("imagem/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-banner {
+    float: right;
+    margin-right: 40px;
+    width: 380px;
+    height: 107%;
+    position: relative;
+    top: -3%;
+    box-shadow: 1px 1px 1px 1px rgb(180,180,180);
+    background-color: #fafafafa;
+    
+}
+
+.form-banner h2 {
+    font-weight: normal;
+    padding: 25px 15px;
+    color: #000000;
+    font-size: 25px;
+    background-color: rgba(234,236,239);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+.form-banner form {
+    margin-top: 8px;
+    padding: 15px;
+}
+
+.form-whapper {
+    margin-top: 20px;
+}
+
+.form-banner form p {
+    font-size: 13px;
+    color: #000000;
+    padding-bottom: 3px;
+}
+
+.form-banner form input[type=text] {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    line-height: 45px;
+    padding-left: 20px;
+   
+}
+
+
+.form-banner form input[type=text]:focus {
+    outline: 0;
+}
+
+.form-banner form input[type=submit] {
+    background-color: #033c50;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    opacity: 0.7;
+    margin-top: 5px;
+
+}
+
+.form-banner form input[type=submit]:hover {
+    opacity: 1;
+}
+
+
+.form-whapper p {
+    margin-top: 20px;
+}
+
+.sessao-1 {
+   padding: 0 2%;
+   
+   
+}
+
+.container-2 {
+    width: 100%;
+    max-width: 1295px;
+    padding: 47px 0;
+    background-color: #8089fc;
+}
+
+.sessao-1 p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    margin-top: 15px;
+}
+
+.flex-mosaico {
+    display: flex;
+    padding: 0 2%;
+}
+
+.item-1 {
+    width: 70%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("imagem/front.png");
+    
+}
+
+.item-2 {
+    width:40%;
+    padding:40px;
+    background-color:#41468b;
+}
+
+.item-2 p {
+    color: #fafafafa;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 0 10px;
+   color: #8089fc;
+}
+
+footer p {
+    color:#475e61;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:1024px){
+
+    .flex-mosaico {
+        display: block;
+    }
+
+    .item-1 {
+        width: 100%;
+    }
+
+    .item-2 {
+        width: 100%;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width:760px){
+
+    .flex-mosaico {
+        display: block;
+    }
+
+    .item-1 {
+        width: 100%;
+    }
+
+    .item-2 {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width:510px){
+
+    header {
+        text-align: center;
+    }
+
+    .logo-1 {
+        display: none;
+    }
+
+    .logo-2 h2 {
+       margin-right: 20%;
+       font-size: 28px;
+       margin-bottom: 38px;
+    }
+
+    .sessao-1 p {
+        
+        font-size: 15px;
+        font-weight: normal;
+        color: #ffff;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-20%);
+        margin-top: 15px;
+    }
+
+    
+    
+}
+
